@@ -74,7 +74,7 @@ const Screen = () => {
                         Friday 14 February 2025 - 15 Shaban 1446
                     </h2>
                     <AnalogClock />
-                    <p className="mt-2 text-3xl text-orange-600">
+                    <p className="mt-2 text-3xl text-orange-700">
                         Powered by <span className="text-green-800 font-medium">SALATTIMES</span><span className="font-medium">.COM</span>
                     </p>
                   </div>
@@ -93,7 +93,7 @@ const Screen = () => {
                     </div>
                     <ul className="text-6xl font-semibold space-y-2">
                         {prayerTimings.map((prayer, index) => (
-                            <li key={index} className={`${prayer.name === "DHUHR" ? "text-green-800" : "text-orange-600"} relative flex justify-between  pb-5`}>
+                            <li key={index} className={`${prayer.name === "DHUHR" ? "text-green-800" : "text-orange-700"} relative flex justify-between  pb-5`}>
                                 <span>{prayer.name}</span>
                                 <span>{prayer.time}</span>
                                 <div className="absolute mx-auto inset-x-0 bottom-0 w-[90%] h-[1px] bg-gradient-to-r from-transparent via-green-800 to-transparent"></div>
